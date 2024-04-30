@@ -1,0 +1,34 @@
+/******************************************************************************
+#1: use the sample CSS below to point out examples of the following: 
+(1) style rule, (2) declaration, (3) selector, (4) property, and (5) value                          
+*******************************************************************************/
+
+#beautiful {
+  font-family: Cambria;
+  color: #07ff7f;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.ugly  {
+  font-family: Arial;
+  color: #ff0000;
+  font-size: 10px;
+  margin-left: 10px;
+}
+/* The style rule is the collection of the selectors in the .css file. Selectors are the #beautiful and .ugly which 
+correspond to HTML elements of class "ugly" and id "beautiful". The properties are elements like font-size, color, 
+font-family, and margin left. The values are the corresponding values to the associated propertiers like Cambria and 
+Arial for font-family, 10px and 20px for font-size, 20px and 10px for margin-left and the two hexidecimal values for 
+an associated color value. the declaration is the ";" semicolon at the end each property - value pair. */
+
+/******************************************************************************
+#2: Find & fix the 3 bugs in the CSS below
+*******************************************************************************/
+
+h1 {
+  font-family: Arial; /* Property was improperly stated. Missing the Colon. */
+  color: #00ffff; /* Missing Declaration! */
+  font-size: 20px;
+  margin-left: 20px;
+} /* Missing closing curly brace / bracket. */
